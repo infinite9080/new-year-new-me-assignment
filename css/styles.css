@@ -8,22 +8,35 @@
 body {
   scroll-behavior: smooth;
 }
-/* position fix */
+/* position fix start */
+
 .icon-position-fix {
   margin-left: 10%;
 }
 
-/* common styles */
+.text-position-fix {
+  margin: 250px;
+}
+
+.button-posion-fix {
+  margin-left: 300px;
+}
+
+/* position fix end */
+
+/* common styles start */
+
 .section-tittle {
   font-size: 40px;
   font-weight: 700;
   font-family: "Lobster", cursive;
 }
+/* common styles end */
 
-/* banner and header styles */
+/************ banner and header styles Start ***************/
 .banner-image {
   height: 100vh;
-  background-image: url(/images/banner/banner2.png);
+  background-image: url(../images/banner/banner2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34,7 +47,7 @@ body {
   justify-content: end;
 }
 
-/* header text,btn styles */
+/* header text,p,btn styles */
 
 .header-area h1 {
   font-size: 65px;
@@ -61,15 +74,9 @@ body {
   border-radius: 5px;
 }
 
-.text-position-fix {
-  margin: 250px;
-}
+/************ banner and header styles End ***************/
 
-.button-posion-fix {
-  margin-left: 300px;
-}
-
-/* my failures of previous year styles */
+/************ failures of previous year styles Start ***************/
 
 .my-failures-of-previous-year {
   display: flex;
@@ -99,7 +106,9 @@ body {
   color: #444343;
 }
 
-/* motivation-quotes styles */
+/************ failures of previous year styles End ***************/
+
+/************ motivation-quotes styles Start ***************/
 
 .flex-container {
   display: flex;
@@ -121,7 +130,9 @@ body {
   text-align: center;
 }
 
-/* my plan styles */
+/************ motivation-quotes styles End ***************/
+
+/************ my plan styles Start ***************/
 
 .my-plan h2 {
   text-align: center;
@@ -152,10 +163,13 @@ body {
   text-align: center;
 }
 
-/* always keep a positive mindset */
+/************ my plan styles End ***************/
+
+/************ always keep a positive mindset Start ***************/
+
 .always-keep-a-positive-mindset-image {
   margin-top: 124px;
-  background-image: url(/images/watch.png);
+  background-image: url(../images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -188,7 +202,11 @@ body {
   margin-top: 1000px;
 }
 
-/* footer styles */
+/************ always keep a positive mindset End ***************/
+
+/************ footer styles Start ***************/
+
+/* footer section */
 
 .footer-section {
   width: 1900px;
@@ -199,6 +217,8 @@ body {
   background-color: #000;
   margin-top: 130px;
 }
+
+/* footer text */
 
 .footer-text {
   margin-top: 131px;
@@ -260,3 +280,5 @@ body {
   font-size: 20px;
   border-radius: 5px;
 }
+
+/************ footer styles End ***************/
