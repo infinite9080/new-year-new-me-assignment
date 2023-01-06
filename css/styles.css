@@ -5,9 +5,24 @@
   font-family: "Work Sans", sans-serif;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+/* position fix */
+.icon-position-fix {
+  margin-left: 10%;
+}
+
+/* common styles */
+.section-tittle {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Lobster", cursive;
+}
+
 /* banner and header styles */
 .banner-image {
-  height: 90vh;
+  height: 100vh;
   background-image: url(/images/banner/banner2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,9 +53,11 @@
 .header-area a {
   text-decoration: none;
   border: 0;
-  background-color: #f15b22;
+  background-color: #fff;
   padding: 18px 32px;
-  color: #fff;
+  color: #000;
+  border: 1px solid black;
+  font-weight: 700;
   font-size: 20px;
   border-radius: 5px;
 }
@@ -51,4 +68,196 @@
 
 .button-posion-fix {
   margin-left: 300px;
+}
+
+/* my failures of previous year styles */
+
+.my-failures-of-previous-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  gap: 300px;
+}
+
+.text-container {
+  margin-top: 239px;
+}
+
+.text-container ul {
+  text-align: start;
+  padding: 0;
+}
+
+.text-container ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.text-container p {
+  margin-bottom: 16px;
+  margin-top: 24px;
+  color: #444343;
+}
+
+/* motivation-quotes styles */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 150px;
+}
+
+.motivation-image img {
+  border-radius: 10px;
+}
+
+.motivation-text p {
+  font-size: 16px;
+  text-align: start;
+  color: #444343;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* my plan styles */
+
+.my-plan h2 {
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.my-plan-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my-plan-container img {
+  margin-left: 28%;
+}
+
+.my-plan-container h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.my-plan-container p {
+  font-size: 25px;
+  color: #737272;
+  text-align: center;
+}
+
+/* always keep a positive mindset */
+.always-keep-a-positive-mindset-image {
+  margin-top: 124px;
+  background-image: url(/images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.always-keep-a-positive-mindset-container {
+  width: 1140px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #141414a4, #00000015);
+  background-repeat: no-repeat;
+}
+
+.always-keep-a-positive-mindset-container h2 {
+  padding-top: 5%;
+  color: #fff;
+  padding-left: 10%;
+  margin-bottom: 50px;
+}
+
+.always-keep-a-positive-mindset-container a {
+  color: #000;
+  text-decoration: none;
+  padding: 21px 30px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 110px;
+  margin-top: 1000px;
+}
+
+/* footer styles */
+
+.footer-section {
+  width: 1900px;
+  height: 577px;
+  display: flex;
+  justify-content: center;
+  gap: 290px;
+  background-color: #000;
+  margin-top: 130px;
+}
+
+.footer-text {
+  margin-top: 131px;
+  margin-bottom: 131px;
+}
+
+.footer-text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-text p {
+  font-size: 16;
+  margin-bottom: 24px;
+  color: #fff;
+}
+.footer-text img {
+  margin-left: 8px;
+}
+
+/* footer form styles */
+
+.footer-form {
+  margin-top: 131px;
+  margin-bottom: 131px;
+}
+
+.footer-form h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+  color: #fff;
+}
+
+.footer-form input {
+  width: 325px;
+  height: 64px;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 16px;
+}
+
+.footer-form a {
+  display: block;
+  text-decoration: none;
+  width: 100px;
+  padding: 20px 36px;
+  border: 0;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
 }
