@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Inter&family=Lobster&family=Open+Sans&family=Pacifico&family=Poppins:wght@400;500;700&family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* banner and header styles */
+.banner-image {
+  height: 90vh;
+  background-image: url(/images/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-area {
+  height: 90vh;
+  display: flex;
+  justify-content: end;
+}
+
+/* header text,btn styles */
+
+.header-area h1 {
+  font-size: 65px;
+  text-align: right;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.header-area p {
+  font-size: 16px;
+  text-align: right;
+  margin-bottom: 40px;
+  color: #444343;
+}
+
+.header-area a {
+  text-decoration: none;
+  border: 0;
+  background-color: #f15b22;
+  padding: 18px 32px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.text-position-fix {
+  margin: 250px;
+}
+
+.button-posion-fix {
+  margin-left: 300px;
+}
